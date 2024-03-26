@@ -1,35 +1,57 @@
-# 🦾 0x0C. Web server
+# 0x0C. Web server
 
-In this project, some of the tasks will be graded on 2 aspects:
+<p align="center">
+  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/266/8Gu52Qv.png" />
+</p>
 
-- Is our web-01 server configured according to requirements
-- Does our answer file contain a Bash script that automatically performs commands to configure an Ubuntu machine to fit requirements (meaning without any human intervention)
+## Resource
 
-## 🛠 Skills
+<details>
+<summary><a href="https://www.gnu.org/software/libc/manual/html_node/Processes.html#Processes">Child Process</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/bw6hYBS5/image.png' border='0' alt='image'/></a>
+</details>
 
-- How the web works
-- Nginx
-- How to Configure Nginx
-- Child process concept page
-- Root and sub domain
-- HTTP request
-- HTTP redirection
-- Not found HTTP response code
-- Logs files on Linux
+- [Background contenxt](https://www.youtube.com/watch?v=AZg4uJkEa-4)
+- [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- [Nginx](https://en.wikipedia.org/wiki/Nginx)
+- [How to Configure Nginx](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
+- [Root and sub domain](https://landingi.com/help/domains-vs-subdomains/)
+- [HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
+- [HTTP redirection](https://moz.com/learn/seo/redirection)
+- [Not found HTTP response code](https://en.wikipedia.org/wiki/HTTP_404)
+- [Logs files on Linux](https://www.cyberciti.biz/faq/ubuntu-linux-gnome-system-log-viewer/)
+- [RFC 7231 (HTTP/1.1)](https://datatracker.ietf.org/doc/html/rfc7231)
+- [RFC 7540 (HTTP/2)](https://datatracker.ietf.org/doc/html/rfc7540)
 
-## 👨‍💻 Tasks and Description
+## Tasks
 
-| Tasks             | Description                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| `0. Transfer a file to your server` | Write a Bash script that transfers a file from our client to a server:... |
-| `1. Install nginx web server`| Install nginx web server. |
-| `2. Setup a domain name` | Provide the domain name in your answer file. |
-| `3. Redirection` |  Configure your Nginx server so that /redirect_me is redirecting to another page. |
-| `4. Not found page 404`| Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page. |
-| `5. Install Nginx web server (w/ Puppet)` | Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me. |
+<details>
+<summary><a href="./0-transfer_file">0. Transfer a file to your server</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/j2P4SmgY/image.png' border='0' alt='image'/></a>
+</details>
 
-## 🚀 Tech Stack
+<details>
+<summary><a href="./1-install_nginx_web_server">1. Install nginx web server</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/QMbf1FrY/image.png' border='0' alt='image'/></a>
+<a href='https://postimg.cc/621fsx68' target='_blank'><img src='https://i.postimg.cc/vTGqVGpt/image.png' border='0' alt='image'/></a>
+</details>
 
-**VM(s):** Ubuntu 20.0.4, Ubuntu 14.04 - Python 3.4
+<details>
+<summary><a href="./2-setup_a_domain_name">2. Setup a domain name</a></summary><br>
+<a href='https://postimg.cc/svdGgYqp' target='_blank'><img src='https://i.postimg.cc/L6htvvV0/image.png' border='0' alt='image'/></a>
+</details>
 
-**Client*:** Sys Admin, DevOps
+<details>
+<summary><a href="./3-redirection">3. Redirection</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/tTmZ8GqZ/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./4-not_found_page_404">4. Not found page 404</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zvhdBrG6/image.png' border='0' alt='image'/></a>
+</details>
+
+<details>
+<summary><a href="./7-puppet_install_nginx_web_server.pp">5. Install Nginx web server (w/ Puppet)</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Vs2dxb0D/image.png' border='0' alt='image'/></a>
+</details>
