@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# a script to restart apache 2 in our docker container
-service apache2 restart
+# Start Apache so as to return a
+# page conatining Hello Holberton
+service apache2 start
